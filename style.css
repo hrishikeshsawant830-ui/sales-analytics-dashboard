@@ -1,0 +1,63 @@
+
+/* Sales Analytics Dashboard Theme */
+
+.stApp {
+    background-color: #f5f7fb;
+    color: #172033;
+}
+
+[data-testid="stSidebar"] {
+    background-color: #111827;
+}
+
+[data-testid="stSidebar"] * {
+    color: #f9fafb;
+}
+
+h1 {
+    color: #172033;
+    font-weight: 800;
+}
+
+h2, h3 {
+    color: #243b53;
+    font-weight: 700;
+}
+
+[data-testid="stMetric"] {
+    background: #ffffff;
+    padding: 22px;
+    border-radius: 14px;
+    border: 1px solid #e3e8ef;
+    box-shadow: 0 3px 12px rgba(20, 40, 80, 0.06);
+}
+
+[data-testid="stMetricLabel"] {
+    color: #64748b;
+    font-weight: 600;
+}
+
+[data-testid="stMetricValue"] {
+    color: #0f766e;
+    font-weight: 800;
+}
+
+.stPlotlyChart {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 8px;
+}
+
+.stButton button,
+.stDownloadButton button {
+    background-color: #0f766e;
+    color: white;
+    border-radius: 8px;
+    border: none;
+}
+
+.stButton button:hover,
+.stDownloadButton button:hover {
+    background-color: #115e59;
+    color: white;
+}
